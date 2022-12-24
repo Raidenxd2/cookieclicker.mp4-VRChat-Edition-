@@ -1,0 +1,3415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!641289076 &-4900418212000141902
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 1
+  m_AudioMixerCount: 0
+--- !u!1126 &-1618657138548918168
+PackedAssets:
+  m_File: 2
+  m_ShortPath: BuildPlayer-Game.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 2048
+    offset: 0
+    sourceAssetGUID: 9f741f8f75d460a44bf205db8fc4792b
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Audio/UI_Click_01.mp3
+--- !u!1126 &-304256986849238152
+PackedAssets:
+  m_File: 5
+  m_ShortPath: CAB-9e76650c05c499b7cacc9eeadc3a51ea
+  m_Overhead: 4096
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4096
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 104
+    offset: 4200
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638074210128414695
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    options: 16
+    assetBundleOptions: 32
+    outputPath: C:/Users/Owner/AppData/Local/Temp/DefaultCompany/cookieclicker_mp4
+      (VRChat Edition)/scene-standalonewindows64-game.vrcw
+    crc: 1278723337
+    totalSize: 25117295
+    totalTimeTicks: 599485727
+    totalErrors: 0
+    totalWarnings: 215
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Stuff/stuff/cookieclicker.mp4 (VRChat Edition)/scene-standalonewindows64-game.vrcw/BuildPlayer-Game
+    role: Scene
+    id: 0
+    totalSize: 1278720
+  - path: D:/Stuff/stuff/cookieclicker.mp4 (VRChat Edition)/scene-standalonewindows64-game.vrcw/BuildPlayer-Game.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 65286704
+  - path: D:/Stuff/stuff/cookieclicker.mp4 (VRChat Edition)/scene-standalonewindows64-game.vrcw/BuildPlayer-Game.resource
+    role: StreamingResourceFile
+    id: 2
+    totalSize: 2048
+  - path: D:/Stuff/stuff/cookieclicker.mp4 (VRChat Edition)/scene-standalonewindows64-game.vrcw
+    role: AssetBundle
+    id: 3
+    totalSize: 25108303
+  - path: D:/Stuff/stuff/cookieclicker.mp4 (VRChat Edition)/scene-standalonewindows64-game.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 4
+    totalSize: 7778
+  - path: D:/Stuff/stuff/cookieclicker.mp4 (VRChat Edition)/cookieclicker_mp4 (VRChat
+      Edition)/CAB-9e76650c05c499b7cacc9eeadc3a51ea
+    role: ResourcesFile
+    id: 5
+    totalSize: 4304
+  - path: D:/Stuff/stuff/cookieclicker.mp4 (VRChat Edition)/cookieclicker_mp4 (VRChat
+      Edition)
+    role: ManifestAssetBundle
+    id: 6
+    totalSize: 1052
+  - path: D:/Stuff/stuff/cookieclicker.mp4 (VRChat Edition)/cookieclicker_mp4 (VRChat
+      Edition).manifest
+    role: AssetBundleTextManifest
+    id: 7
+    totalSize: 162
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 599485727
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 966117
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 97528427
+    depth: 1
+    messages: []
+  - stepName: Build player
+    durationTicks: 417260906
+    depth: 1
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 3766640
+    depth: 2
+    messages: []
+  - stepName: Building scenes
+    durationTicks: 81605192
+    depth: 2
+    messages: []
+  - stepName: Building scene Assets/Cookieclicker2.mp4/Scenes/Game.unity
+    durationTicks: 81569889
+    depth: 3
+    messages:
+    - type: 2
+      content: Script attached to 'Trees' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'YesBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Title' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'LoadCookiesBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TreeLeaves' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'BigCookieBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'OptionsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Lighting' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'GrandmaBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Electrodoodle' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Title' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Klockworx' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'HelpBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'DeleteSave' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Offline Manager' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'CrashGameBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'BetaContent' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'CamSpot' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'LocaleManager' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to '6' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'cookie_normal' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to '4' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TreeLeaves' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'SaveCodeImporter' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Pamgaea' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'YesBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'SwitchRendererFeature' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'CookieClick' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TreeLeaves' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Hypnothis' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'JukeboxBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'base' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Update' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TextureQuality' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Normal Camera' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ReloadBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'AccessibilityBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'DEBUGBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TreeLeaves' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'DRILL' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'OHYEAH' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'LoadBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'DrillBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ResetDataBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'RESEARCH_FACTORY' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ResearchBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'SmallErrorDetail' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Title' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ResearchFactory' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to '3' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to '2' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'DoublecookieBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Warning' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Fog' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'bottom' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'bottom' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'base.001' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'base.001' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'MoreInfoBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ShopBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Title' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Cube' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Cube' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Quality Settings' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Oh God Not This Game Again' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'airtone_-_sleepwalking' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Screenshot' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'AutoclickerBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'YesBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'pp_performance' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'pp_normal' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ModManager' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'notification' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TreeLeaves' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TreeLeaves' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Quality Wrapper' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ModsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ModsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Particles' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'QualitySettingsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to '1' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'DEBUG' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TreeLeaves' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'BetaContentBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Lancefield_-_Infinite_Sorrows' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ThemesBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'VSync' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'YesBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'SaveBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'SSAO' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'PP' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Title' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'QuitBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'FPS Limiter' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Cylinder' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Cylinder' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'SaveCookiesBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'NoBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'RecRoomImportBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'EnterBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Funni' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'YouHaveBeen' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Textures' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'CannotSave' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Point Light' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TreeLeaves' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ConsoleBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to '5' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'SpaceThemeBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Title' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ForestThemeBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'UnlockBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'inner' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'left' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'right' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'top' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'left' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'right' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'top' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Language' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Directional Light' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ImportBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ChangeBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'StatsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Game' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ScreenshotSettingsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'CreditsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ReloadBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ContinueBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ShopItemMod' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'supported' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Text (TMP)' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'DeleteScreenshots' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Title' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'tip' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ThemeItemMod' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'FloorNEW' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'StatsItemMod' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'TabbedWindow' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'outer.003' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'outer.003' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'OptionsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'StatsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'YesBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'CreditsBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'Music' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ReloadBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ThemesBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'SourceSansProLicence' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ShopBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'urp-kawase-blur ' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ShopItemMod' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'DisableBetaContentBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'AccessibilityBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'JukeboxBTN' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'outer' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'outer' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'outer.001' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'outer.001' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+    - type: 2
+      content: Script attached to 'ThemeItemMod' in scene 'Assets/Cookieclicker2.mp4/Scenes/Game.unity'
+        is missing or no valid script is attached.
+  - stepName: Writing asset files
+    durationTicks: 135803098
+    depth: 2
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-Game/BuildPlayer-Game.sharedAssets
+    durationTicks: 135682582
+    depth: 3
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 170189107
+    depth: 2
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 487089
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: 497271312235155227}
+  - {fileID: 6320848776532047400}
+  - {fileID: -1618657138548918168}
+  - {fileID: 3325777079354981267}
+  - {fileID: -4900418212000141902}
+  - {fileID: -304256986849238152}
+--- !u!668709126 &497271312235155227
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-game.vrcw
+    bundleArchiveFile: 3
+    packagedFileIndices: 000000000100000002000000
+  - bundleName: cookieclicker_mp4 (VRChat Edition)
+    bundleArchiveFile: 6
+    packagedFileIndices: 05000000
+--- !u!382020655 &3325777079354981267
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Unity.Burst.Unsafe
+  - OVRPlugin
+  - System.Threading.Tasks.Extensions
+  - VRC.Udon.ClientBindings
+  - openvr_api
+  - portmidi
+  - VRC.Udon.VRCWrapperModules
+  - VRCSDK3
+  - VRC.Udon.VM
+  - nunit.framework
+  - librsync.net
+  - VRC.Udon.Common
+  - Collections.Pooled
+  - System.Collections.Immutable
+  - System.Numerics.Vectors
+  - System.Buffers
+  - VRC.Udon.Wrapper
+  - VRC.Udon.Security
+  - VRC.Utility
+  - clipper_library
+  - VRC.Collections
+  - VRCSDKBase
+  - System.Runtime.CompilerServices.Unsafe
+  - libopenvr_api
+  - Blake2Sharp
+  - System.Memory
+  - VRCCore-Editor
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRCSDK3-Editor
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.VRCTypeResolverModules
+  - AppleEventIntegration
+  - liblz4Plastic
+  - Unity.Plastic.Newtonsoft.Json
+  - unityplastic
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.UAssembly
+  - VRC.Udon.Graph
+  - UnityEditor.VR
+  - 0Harmony
+  - VRCSDKBase-Editor
+  - VRC.Udon.VRCGraphModules
+  - log4netPlastic
+  - VRC.Udon.EditorBindings
+  - zlib64Plastic
+  - Unity.Plastic.Antlr3.Runtime
+  - lz4x64Plastic
+--- !u!1126 &6320848776532047400
+PackedAssets:
+  m_File: 1
+  m_ShortPath: BuildPlayer-Game.sharedAssets
+  m_Overhead: 142845
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 109
+    offset: 145512
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 164
+    offset: 145624
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 1748
+    offset: 145792
+    sourceAssetGUID: 41ee841e4821a534c8052daac69f9717
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/PerfectDOSVGA437 SDF.asset
+  - fileID: 4
+    classID: 21
+    packedSize: 896
+    offset: 147544
+    sourceAssetGUID: b92818e5aedbd9043976c5a2562decc4
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Trees/02/Tree02_lowpoly.fbx
+  - fileID: 5
+    classID: 21
+    packedSize: 1744
+    offset: 148440
+    sourceAssetGUID: ef34cf59de033b64a95aea3ee983a747
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Black SDF.asset
+  - fileID: 6
+    classID: 21
+    packedSize: 460
+    offset: 150184
+    sourceAssetGUID: 64b713400d8aa5547af0401038f615cb
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/DejaVuSans/checkmark.asset
+  - fileID: 7
+    classID: 21
+    packedSize: 1752
+    offset: 150648
+    sourceAssetGUID: c152a653b2e902d4d9a351fec3992ec1
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-LightItalic
+      SDF.asset
+  - fileID: 8
+    classID: 21
+    packedSize: 1748
+    offset: 152400
+    sourceAssetGUID: 87eae60354e98574198f44608f6cd97a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-BoldItalic
+      SDF.asset
+  - fileID: 9
+    classID: 21
+    packedSize: 1752
+    offset: 154152
+    sourceAssetGUID: 1cd45e95e247f674f8d4058187cd4b54
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-MediumItalic
+      SDF.asset
+  - fileID: 10
+    classID: 21
+    packedSize: 1744
+    offset: 155904
+    sourceAssetGUID: e9c0f205cb26ab34b9081768a1a59b7e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Medium
+      SDF.asset
+  - fileID: 11
+    classID: 21
+    packedSize: 1064
+    offset: 157648
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 12
+    classID: 21
+    packedSize: 312
+    offset: 158712
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 13
+    classID: 21
+    packedSize: 1108
+    offset: 159024
+    sourceAssetGUID: 0db75401822a78d408edb89b21957d4e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/Bark012.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 844
+    offset: 160136
+    sourceAssetGUID: 6d021a68b38a5a54a8d8f2e218521798
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/Capsule.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 1120
+    offset: 160984
+    sourceAssetGUID: 83b770877c41645499253519aa259077
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/Cookie.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 1108
+    offset: 162104
+    sourceAssetGUID: acb26529402dbe642b4eafff3111e2ac
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/Grass001.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 1104
+    offset: 163216
+    sourceAssetGUID: c945718cb04623b44801095594e0c5d3
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/Haha RTX Graphics Go
+      BRRR.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 1064
+    offset: 164320
+    sourceAssetGUID: b3d68ee90a889d542bc6e258131cf66b
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/HexagonFlatTop.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 988
+    offset: 165384
+    sourceAssetGUID: 1216f311b17a16744b75c54ce7e48d16
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/Orange.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 1120
+    offset: 166376
+    sourceAssetGUID: d348f02554a005b44b07be0969bde51c
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/PaintedPlaster017.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 1088
+    offset: 167496
+    sourceAssetGUID: 34d8173dd7a8e434f9606c3f7df0dd9d
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/Tree Leaves.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 1108
+    offset: 168584
+    sourceAssetGUID: fe65c9f6d43c324429a0fa827c730f33
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/Wood049.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 1024
+    offset: 169696
+    sourceAssetGUID: deeac30b33e814f409efebd04e65bd6e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/black.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 784
+    offset: 170720
+    sourceAssetGUID: 1a69666f657b7f74fa1ce67f48133e27
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/sky.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 1356
+    offset: 171504
+    sourceAssetGUID: 888455a5cbedfa74990ed6e0e0395e46
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/tiled_wall/tiled_wall_clean.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 1368
+    offset: 172864
+    sourceAssetGUID: ccd87eaee2d692a489b4a994f29594f1
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/tiled_wall/tiled_wall_clean_lightbar.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 1372
+    offset: 174232
+    sourceAssetGUID: 19eddcecf2876f14887fe5a1ee205db4
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/tiled_wall/tiled_wall_clean_science_factory.mat
+  - fileID: 28
+    classID: 21
+    packedSize: 1364
+    offset: 175608
+    sourceAssetGUID: 29df19fecff24684090cd26aedcc40bf
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Materials/tiled_wall/tiled_wall_clean_window.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 1228
+    offset: 176976
+    sourceAssetGUID: 6b33899375b68bb43a5c9d610bc786b0
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Light Bar/white.mat
+  - fileID: 30
+    classID: 21
+    packedSize: 1272
+    offset: 178208
+    sourceAssetGUID: 710ccb3f9a1a44a4d9f081bdadf05058
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Prefabs/Window_Fake/glow.mat
+  - fileID: 31
+    classID: 21
+    packedSize: 704
+    offset: 179480
+    sourceAssetGUID: 3799f96ca95a1114d935f4e1d76141eb
+    buildTimeAssetPath: Assets/Textures/PaintedPlaster017_2K/room.mat
+  - fileID: 32
+    classID: 21
+    packedSize: 484
+    offset: 180184
+    sourceAssetGUID: bb570020a8c3bad4bbf803af20e78937
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Materials/body.mat
+  - fileID: 33
+    classID: 21
+    packedSize: 280
+    offset: 180672
+    sourceAssetGUID: 4987862c1c195e74c86994ba4bcbd812
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Materials/eye_L1.mat
+  - fileID: 34
+    classID: 21
+    packedSize: 280
+    offset: 180952
+    sourceAssetGUID: a87def7cf3654cc43add52e645fee2ce
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Materials/eye_R1.mat
+  - fileID: 35
+    classID: 21
+    packedSize: 280
+    offset: 181232
+    sourceAssetGUID: 9bec51fc47eda6047ba5cc01addbf46f
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Materials/eyebase.mat
+  - fileID: 36
+    classID: 21
+    packedSize: 280
+    offset: 181512
+    sourceAssetGUID: 407f97b032a277c44b753ed1c256a3b8
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Materials/eyeline.mat
+  - fileID: 37
+    classID: 21
+    packedSize: 300
+    offset: 181792
+    sourceAssetGUID: 4d83bd267b90e934e88637afcd02cb8a
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Materials/face.mat
+  - fileID: 38
+    classID: 21
+    packedSize: 484
+    offset: 182096
+    sourceAssetGUID: 5ebb6caef8207d243a588a574971408c
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Materials/hair.mat
+  - fileID: 39
+    classID: 21
+    packedSize: 368
+    offset: 182584
+    sourceAssetGUID: 5f9d44654b83160428d7c4cf276b3572
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Materials/mat_cheek.mat
+  - fileID: 40
+    classID: 21
+    packedSize: 304
+    offset: 182952
+    sourceAssetGUID: ca131910d5c9a634dbdd38e77111033f
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Materials/skin1.mat
+  - fileID: 41
+    classID: 21
+    packedSize: 136
+    offset: 183256
+    sourceAssetGUID: 0a4e92d564bcce04f8f15f37c7934a36
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Bold.ttf
+  - fileID: 42
+    classID: 21
+    packedSize: 136
+    offset: 183392
+    sourceAssetGUID: 1790396a86663e240ad2530ddc7e2196
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Thin.ttf
+  - fileID: 43
+    classID: 21
+    packedSize: 136
+    offset: 183528
+    sourceAssetGUID: 1b286fbd94715a142921f0fc388039c6
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Light.ttf
+  - fileID: 44
+    classID: 21
+    packedSize: 136
+    offset: 183664
+    sourceAssetGUID: 2210824cb6753c04a8c1a36dbc374ba3
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Regular.ttf
+  - fileID: 45
+    classID: 21
+    packedSize: 136
+    offset: 183800
+    sourceAssetGUID: 2c52036b1c5b61c4f9656fff045675ba
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-BoldItalic.ttf
+  - fileID: 46
+    classID: 21
+    packedSize: 136
+    offset: 183936
+    sourceAssetGUID: 3be424fa0721e4d4ca0bcf291e54cdca
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Black.ttf
+  - fileID: 47
+    classID: 21
+    packedSize: 136
+    offset: 184072
+    sourceAssetGUID: 3ef9410cdcd0c3145819638732f065b0
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Light.ttf
+  - fileID: 48
+    classID: 21
+    packedSize: 136
+    offset: 184208
+    sourceAssetGUID: 4c1677d74b2b96c4784f21b60629a25f
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Bold.ttf
+  - fileID: 49
+    classID: 21
+    packedSize: 136
+    offset: 184344
+    sourceAssetGUID: 5093126f885ca4b4295693dac33d6522
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-BlackItalic.ttf
+  - fileID: 50
+    classID: 21
+    packedSize: 136
+    offset: 184480
+    sourceAssetGUID: 5bb4f19e8c43da245813fae890e87a29
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-ExtraLightItalic.ttf
+  - fileID: 51
+    classID: 21
+    packedSize: 136
+    offset: 184616
+    sourceAssetGUID: 608295f367472f543a49a09ac2dc5840
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-SemiBoldItalic.ttf
+  - fileID: 52
+    classID: 21
+    packedSize: 136
+    offset: 184752
+    sourceAssetGUID: 61cd7f1418b44424aa4bc152bc33e30d
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-BoldItalic.ttf
+  - fileID: 53
+    classID: 21
+    packedSize: 136
+    offset: 184888
+    sourceAssetGUID: 77a57e270f231934aad538342b9b6934
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Italic.ttf
+  - fileID: 54
+    classID: 21
+    packedSize: 136
+    offset: 185024
+    sourceAssetGUID: 78a06d2ec5d68f048827965a2b06ad62
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Regular.ttf
+  - fileID: 55
+    classID: 21
+    packedSize: 136
+    offset: 185160
+    sourceAssetGUID: 8acfed0143142934d8596a084b472bff
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-BlackItalic.ttf
+  - fileID: 56
+    classID: 21
+    packedSize: 136
+    offset: 185296
+    sourceAssetGUID: 987142d53e4852647aab4704d620c799
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-ExtraLight.ttf
+  - fileID: 57
+    classID: 21
+    packedSize: 136
+    offset: 185432
+    sourceAssetGUID: ab9c8fb95ed9a254f8ec4b4aec9ca5e9
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Medium.ttf
+  - fileID: 58
+    classID: 21
+    packedSize: 136
+    offset: 185568
+    sourceAssetGUID: add091b60b9140e42aabea44b786ee96
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Black.ttf
+  - fileID: 59
+    classID: 21
+    packedSize: 136
+    offset: 185704
+    sourceAssetGUID: d394228d9ffcbc74c8bd4c3b4a777f27
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-ThinItalic.ttf
+  - fileID: 60
+    classID: 21
+    packedSize: 136
+    offset: 185840
+    sourceAssetGUID: d46d602511355ef4c8898a6ab201c5c2
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-MediumItalic.ttf
+  - fileID: 61
+    classID: 21
+    packedSize: 136
+    offset: 185976
+    sourceAssetGUID: d5d93086152587c48a245f41f7282dbe
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-LightItalic.ttf
+  - fileID: 62
+    classID: 21
+    packedSize: 136
+    offset: 186112
+    sourceAssetGUID: e991c2566b12e2e4c9a7d9256bcccd8c
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-LightItalic.ttf
+  - fileID: 63
+    classID: 21
+    packedSize: 136
+    offset: 186248
+    sourceAssetGUID: fde49f386eb44214c877526cc6973bd8
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/PerfectDOSVGA437.ttf
+  - fileID: 64
+    classID: 21
+    packedSize: 1744
+    offset: 186384
+    sourceAssetGUID: 129072d30a2579e409ff44d1d618f470
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/gameFontBold.asset
+  - fileID: 65
+    classID: 21
+    packedSize: 1748
+    offset: 188128
+    sourceAssetGUID: cde9d39732ea3524898d7986bfd5d09a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/gameFont.asset
+  - fileID: 66
+    classID: 21
+    packedSize: 1748
+    offset: 189880
+    sourceAssetGUID: 64a63fe5b31d3df49b20a98134f61d81
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-ThinItalic
+      SDF.asset
+  - fileID: 67
+    classID: 21
+    packedSize: 1752
+    offset: 191632
+    sourceAssetGUID: 568379fb23fd19241882bcaf9bdfb2df
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-BlackItalic
+      SDF.asset
+  - fileID: 68
+    classID: 21
+    packedSize: 1744
+    offset: 193384
+    sourceAssetGUID: 0e94d9de0610cab4bb367eeaf281b17e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Thin SDF.asset
+  - fileID: 69
+    classID: 21
+    packedSize: 896
+    offset: 195128
+    sourceAssetGUID: b400a5bca253c984f9b4c00f52bc9efe
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Science_Factory/V2/Science_Factory_Normal_V2_UV.fbx
+  - fileID: 70
+    classID: 21
+    packedSize: 1744
+    offset: 196024
+    sourceAssetGUID: bbcca7ff2bdaaf447ab0c703fb9cf53f
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Light SDF.asset
+  - fileID: 71
+    classID: 28
+    packedSize: 1048696
+    offset: 197768
+    sourceAssetGUID: 568379fb23fd19241882bcaf9bdfb2df
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-BlackItalic
+      SDF.asset
+  - fileID: 72
+    classID: 28
+    packedSize: 1048688
+    offset: 1246464
+    sourceAssetGUID: cde9d39732ea3524898d7986bfd5d09a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/gameFont.asset
+  - fileID: 73
+    classID: 28
+    packedSize: 1048692
+    offset: 2295152
+    sourceAssetGUID: 129072d30a2579e409ff44d1d618f470
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/gameFontBold.asset
+  - fileID: 74
+    classID: 28
+    packedSize: 1048696
+    offset: 3343848
+    sourceAssetGUID: 64a63fe5b31d3df49b20a98134f61d81
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-ThinItalic
+      SDF.asset
+  - fileID: 75
+    classID: 28
+    packedSize: 65648
+    offset: 4392544
+    sourceAssetGUID: 64b713400d8aa5547af0401038f615cb
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/DejaVuSans/checkmark.asset
+  - fileID: 76
+    classID: 28
+    packedSize: 1048700
+    offset: 4458192
+    sourceAssetGUID: 1cd45e95e247f674f8d4058187cd4b54
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-MediumItalic
+      SDF.asset
+  - fileID: 77
+    classID: 28
+    packedSize: 1048692
+    offset: 5506896
+    sourceAssetGUID: e9c0f205cb26ab34b9081768a1a59b7e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Medium
+      SDF.asset
+  - fileID: 78
+    classID: 28
+    packedSize: 1048692
+    offset: 6555592
+    sourceAssetGUID: bbcca7ff2bdaaf447ab0c703fb9cf53f
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Light SDF.asset
+  - fileID: 79
+    classID: 28
+    packedSize: 21964
+    offset: 7604288
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 80
+    classID: 28
+    packedSize: 21952
+    offset: 7626256
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 81
+    classID: 28
+    packedSize: 5564
+    offset: 7648208
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 82
+    classID: 28
+    packedSize: 5568
+    offset: 7653776
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 83
+    classID: 28
+    packedSize: 5576
+    offset: 7659344
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 84
+    classID: 28
+    packedSize: 21956
+    offset: 7664920
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 85
+    classID: 28
+    packedSize: 5564
+    offset: 7686880
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 86
+    classID: 28
+    packedSize: 846612
+    offset: 7692448
+    sourceAssetGUID: 00c5d4dd81d557a49b213742b70dc268
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/PaintedPlaster017/PaintedPlaster017_NormalGL.jpg
+  - fileID: 87
+    classID: 28
+    packedSize: 3324
+    offset: 8539064
+    sourceAssetGUID: 018105a8ed27cb349996da73fdc7511e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/HexagonFlatTop.png
+  - fileID: 88
+    classID: 28
+    packedSize: 4204
+    offset: 8542392
+    sourceAssetGUID: 02c0a84bd64c6f044954d8bde9b46ec8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png
+  - fileID: 89
+    classID: 28
+    packedSize: 4204
+    offset: 8546600
+    sourceAssetGUID: 09f6c01f98a3ded4daf1afc52a3c260f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_26.png
+  - fileID: 90
+    classID: 28
+    packedSize: 108
+    offset: 8550808
+    sourceAssetGUID: 0a4e92d564bcce04f8f15f37c7934a36
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Bold.ttf
+  - fileID: 91
+    classID: 28
+    packedSize: 4204
+    offset: 8550920
+    sourceAssetGUID: 0a79c155edf9b2d429d4736abee5acdb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_35.png
+  - fileID: 92
+    classID: 28
+    packedSize: 1036908
+    offset: 8555128
+    sourceAssetGUID: 0cb56266746897742b31ff636472b81b
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/TexturesOn.png
+  - fileID: 93
+    classID: 28
+    packedSize: 65644
+    offset: 9592040
+    sourceAssetGUID: 0f8fa14b3731cda4e947062e734d5e1e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_1.png
+  - fileID: 94
+    classID: 28
+    packedSize: 4204
+    offset: 9657688
+    sourceAssetGUID: 0fa10b21877c61b4db40ba5708815f81
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_30.png
+  - fileID: 95
+    classID: 28
+    packedSize: 559540
+    offset: 9661896
+    sourceAssetGUID: 116f6e2dc76c6fb4fa426ed4f40b94fe
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/tree_texture/tree_texture_basecolor.jpg
+  - fileID: 96
+    classID: 28
+    packedSize: 4204
+    offset: 10221440
+    sourceAssetGUID: 119591e0bb084e848835d237546b3882
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_61.png
+  - fileID: 97
+    classID: 28
+    packedSize: 4204
+    offset: 10225648
+    sourceAssetGUID: 1378a33cdd085d64c9da863d2484ff21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_47.png
+  - fileID: 98
+    classID: 28
+    packedSize: 4204
+    offset: 10229856
+    sourceAssetGUID: 153f7d6dfbe713d4884df0f1e243ba92
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_16.png
+  - fileID: 99
+    classID: 28
+    packedSize: 4204
+    offset: 10234064
+    sourceAssetGUID: 15e54aa23a938444389469d53765d741
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_44.png
+  - fileID: 100
+    classID: 28
+    packedSize: 108
+    offset: 10238272
+    sourceAssetGUID: 1790396a86663e240ad2530ddc7e2196
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Thin.ttf
+  - fileID: 101
+    classID: 28
+    packedSize: 4204
+    offset: 10238384
+    sourceAssetGUID: 1a9ce5640cde5934aae0022f020464a6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_40.png
+  - fileID: 102
+    classID: 28
+    packedSize: 65644
+    offset: 10242592
+    sourceAssetGUID: 1abfe0e165ca1e9428b455ffc9a2d9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_2.png
+  - fileID: 103
+    classID: 28
+    packedSize: 9876
+    offset: 10308240
+    sourceAssetGUID: 1b2100d72f78b624cbf39ec09da0934b
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/loading_grayscale.png
+  - fileID: 104
+    classID: 28
+    packedSize: 108
+    offset: 10318120
+    sourceAssetGUID: 1b286fbd94715a142921f0fc388039c6
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Light.ttf
+  - fileID: 105
+    classID: 28
+    packedSize: 4204
+    offset: 10318232
+    sourceAssetGUID: 1d6958e30e40a254dbe5a54c573eeb3c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png
+  - fileID: 106
+    classID: 28
+    packedSize: 108
+    offset: 10322440
+    sourceAssetGUID: 2210824cb6753c04a8c1a36dbc374ba3
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Regular.ttf
+  - fileID: 107
+    classID: 28
+    packedSize: 349672
+    offset: 10322552
+    sourceAssetGUID: 2a3abfe3a1070c34f8d25995da137b00
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  - fileID: 108
+    classID: 28
+    packedSize: 349668
+    offset: 10672224
+    sourceAssetGUID: 2c183394d1cda3d48ac3cc7d10b8232b
+    buildTimeAssetPath: Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+  - fileID: 109
+    classID: 28
+    packedSize: 108
+    offset: 11021896
+    sourceAssetGUID: 2c52036b1c5b61c4f9656fff045675ba
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-BoldItalic.ttf
+  - fileID: 110
+    classID: 28
+    packedSize: 1445268
+    offset: 11022008
+    sourceAssetGUID: 2d67e693aa13dd8428f53551d0891403
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Wood049/Wood049_NormalGL.jpg
+  - fileID: 111
+    classID: 28
+    packedSize: 4204
+    offset: 12467280
+    sourceAssetGUID: 2ee161d8945169243b5698fec114e1b7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_15.png
+  - fileID: 112
+    classID: 28
+    packedSize: 1036908
+    offset: 12471488
+    sourceAssetGUID: 30a0607a5324d9144a1048193c5e3f15
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/LightingOff.png
+  - fileID: 113
+    classID: 28
+    packedSize: 4204
+    offset: 13508400
+    sourceAssetGUID: 319b8e66db3faa4438cf6982e9c89b2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_34.png
+  - fileID: 114
+    classID: 28
+    packedSize: 388276
+    offset: 13512608
+    sourceAssetGUID: 32b0f800044dd414eb9852400c5a082a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/SSAOOn.png
+  - fileID: 115
+    classID: 28
+    packedSize: 4204
+    offset: 13900888
+    sourceAssetGUID: 32c6a5f7143b86c44bd5cdee2ff3f8ad
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_24.png
+  - fileID: 116
+    classID: 28
+    packedSize: 4204
+    offset: 13905096
+    sourceAssetGUID: 351e95d0e20a54849bd4ce5f9b498934
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_36.png
+  - fileID: 117
+    classID: 28
+    packedSize: 4204
+    offset: 13909304
+    sourceAssetGUID: 373f9bf6b0841af4ebf26d25e4a3f4e2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_3.png
+  - fileID: 118
+    classID: 28
+    packedSize: 699172
+    offset: 13913512
+    sourceAssetGUID: 3a3c0acc807e9264ca0b32602a928a9a
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/body_01_NRM.tga
+  - fileID: 119
+    classID: 28
+    packedSize: 4204
+    offset: 14612688
+    sourceAssetGUID: 3ac02e7e783571c468f9c086d2384ba7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_7.png
+  - fileID: 120
+    classID: 28
+    packedSize: 108
+    offset: 14616896
+    sourceAssetGUID: 3be424fa0721e4d4ca0bcf291e54cdca
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Black.ttf
+  - fileID: 121
+    classID: 28
+    packedSize: 4204
+    offset: 14617008
+    sourceAssetGUID: 3c2f1fb7e4b66e74191b7c328ada52d9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png
+  - fileID: 122
+    classID: 28
+    packedSize: 699168
+    offset: 14621216
+    sourceAssetGUID: 3cf2e516b5353d5499c41818747b4155
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/face_00.tga
+  - fileID: 123
+    classID: 28
+    packedSize: 108
+    offset: 15320384
+    sourceAssetGUID: 3ef9410cdcd0c3145819638732f065b0
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Light.ttf
+  - fileID: 124
+    classID: 28
+    packedSize: 4204
+    offset: 15320496
+    sourceAssetGUID: 3f7c3687170b90e4a8d2ee6b142670f4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_49.png
+  - fileID: 125
+    classID: 28
+    packedSize: 4204
+    offset: 15324704
+    sourceAssetGUID: 404fa8def46b1c447817e1ebdaa7144e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_60.png
+  - fileID: 126
+    classID: 28
+    packedSize: 295436
+    offset: 15328912
+    sourceAssetGUID: 41a03ec386f23e643a8711dc1d9f055c
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/PaintedPlaster017/PaintedPlaster017_Albedo.jpg
+  - fileID: 127
+    classID: 28
+    packedSize: 4204
+    offset: 15624352
+    sourceAssetGUID: 4a11d65ce13d5f542a0ff136cc2f3fba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_63.png
+  - fileID: 128
+    classID: 28
+    packedSize: 108
+    offset: 15628560
+    sourceAssetGUID: 4c1677d74b2b96c4784f21b60629a25f
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Bold.ttf
+  - fileID: 129
+    classID: 28
+    packedSize: 108
+    offset: 15628672
+    sourceAssetGUID: 5093126f885ca4b4295693dac33d6522
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-BlackItalic.ttf
+  - fileID: 130
+    classID: 28
+    packedSize: 4204
+    offset: 15628784
+    sourceAssetGUID: 50b54341495978843a6f85583ed4417d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_0.png
+  - fileID: 131
+    classID: 28
+    packedSize: 4204
+    offset: 15632992
+    sourceAssetGUID: 547dbd5f858c74047ba3f213e4408307
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_39.png
+  - fileID: 132
+    classID: 28
+    packedSize: 1036904
+    offset: 15637200
+    sourceAssetGUID: 55b896794b2a1d240a3bed7d843f6746
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/PPOff.png
+  - fileID: 133
+    classID: 28
+    packedSize: 108
+    offset: 16674104
+    sourceAssetGUID: 5bb4f19e8c43da245813fae890e87a29
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-ExtraLightItalic.ttf
+  - fileID: 134
+    classID: 28
+    packedSize: 4204
+    offset: 16674216
+    sourceAssetGUID: 5e542d0126a2c7848b66bffc428905fd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_55.png
+  - fileID: 135
+    classID: 28
+    packedSize: 65644
+    offset: 16678424
+    sourceAssetGUID: 6017f374382d64245a0a4aab668e6f38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_0.png
+  - fileID: 136
+    classID: 28
+    packedSize: 108
+    offset: 16744072
+    sourceAssetGUID: 608295f367472f543a49a09ac2dc5840
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-SemiBoldItalic.ttf
+  - fileID: 137
+    classID: 28
+    packedSize: 646784
+    offset: 16744184
+    sourceAssetGUID: 6090f9ae9c86f2f45b6ff5dd2db9b201
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Wood049/Wood049_Albedo.jpg
+  - fileID: 138
+    classID: 28
+    packedSize: 108
+    offset: 17390968
+    sourceAssetGUID: 61cd7f1418b44424aa4bc152bc33e30d
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-BoldItalic.ttf
+  - fileID: 139
+    classID: 28
+    packedSize: 349664
+    offset: 17391080
+    sourceAssetGUID: 66f06726158899242adaf95180360b7b
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/eye_iris_L_00.tga
+  - fileID: 140
+    classID: 28
+    packedSize: 4204
+    offset: 17740744
+    sourceAssetGUID: 68613e6a221be1a4b9f31d7fa1c2d1bf
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_13.png
+  - fileID: 141
+    classID: 28
+    packedSize: 4204
+    offset: 17744952
+    sourceAssetGUID: 6b0a189df0bd4d5448eaefb4e673ace8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_31.png
+  - fileID: 142
+    classID: 28
+    packedSize: 4204
+    offset: 17749160
+    sourceAssetGUID: 6dda07f1420a968449cf4c6620c44d9f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_20.png
+  - fileID: 143
+    classID: 28
+    packedSize: 4204
+    offset: 17753368
+    sourceAssetGUID: 6fa5cf178eaaa5f42b820f636bb6e0bd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_4.png
+  - fileID: 144
+    classID: 28
+    packedSize: 65644
+    offset: 17757576
+    sourceAssetGUID: 70d0a1182b29d6347ac70374c3593bba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_7.png
+  - fileID: 145
+    classID: 28
+    packedSize: 4204
+    offset: 17823224
+    sourceAssetGUID: 70f23eaf7d8ae9147aa542d20e93733b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_56.png
+  - fileID: 146
+    classID: 28
+    packedSize: 4204
+    offset: 17827432
+    sourceAssetGUID: 71583cfd8899717428d5b1a95fa39cda
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_9.png
+  - fileID: 147
+    classID: 28
+    packedSize: 4204
+    offset: 17831640
+    sourceAssetGUID: 71bc1b6b66e8b784b972199b7e90204e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_43.png
+  - fileID: 148
+    classID: 28
+    packedSize: 2424
+    offset: 17835848
+    sourceAssetGUID: 7274dd14d684c8442ab13944c28b36e1
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Circle.png
+  - fileID: 149
+    classID: 28
+    packedSize: 4204
+    offset: 17838272
+    sourceAssetGUID: 729a3ae164bcb3b4380459386adcf331
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_19.png
+  - fileID: 150
+    classID: 28
+    packedSize: 268904
+    offset: 17842480
+    sourceAssetGUID: 73ec4ae984a0a0f44a2be737e41a6f2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
+  - fileID: 151
+    classID: 28
+    packedSize: 4204
+    offset: 18111384
+    sourceAssetGUID: 74aca53eb7273624baffc2bf5e5cc173
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_18.png
+  - fileID: 152
+    classID: 28
+    packedSize: 349664
+    offset: 18115592
+    sourceAssetGUID: 7521661d2d6cebb479dea03e7336e5de
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/eye_iris_R_00.tga
+  - fileID: 153
+    classID: 28
+    packedSize: 43804
+    offset: 18465256
+    sourceAssetGUID: 763c5d30206d1d54a9b49b3309e37fe1
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/ENV2.tga
+  - fileID: 154
+    classID: 28
+    packedSize: 4204
+    offset: 18509064
+    sourceAssetGUID: 771903fe7b4674445829e52e91cff019
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_11.png
+  - fileID: 155
+    classID: 28
+    packedSize: 895820
+    offset: 18513272
+    sourceAssetGUID: 77374713e95ed3c48a5f3d80c54caf5c
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Bark012/Bark012_Albedo.jpg
+  - fileID: 156
+    classID: 28
+    packedSize: 108
+    offset: 19409096
+    sourceAssetGUID: 77a57e270f231934aad538342b9b6934
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Italic.ttf
+  - fileID: 157
+    classID: 28
+    packedSize: 1047416
+    offset: 19409208
+    sourceAssetGUID: 77e2f1b85f21b7940ad9523dd810f5b9
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/tree_texture/tree_texture_normal.jpg
+  - fileID: 158
+    classID: 28
+    packedSize: 108
+    offset: 20456624
+    sourceAssetGUID: 78a06d2ec5d68f048827965a2b06ad62
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Regular.ttf
+  - fileID: 159
+    classID: 28
+    packedSize: 4204
+    offset: 20456736
+    sourceAssetGUID: 79b86f3419b87f3429164a956da8cfab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_6.png
+  - fileID: 160
+    classID: 28
+    packedSize: 349660
+    offset: 20460944
+    sourceAssetGUID: 7ae1142e9b3a72048960dd9561e0e0d9
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/body_01_SPEC.tga
+  - fileID: 161
+    classID: 28
+    packedSize: 160308
+    offset: 20810608
+    sourceAssetGUID: 82259905df3225243840c9eee5fd6ba2
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Cookie.psd
+  - fileID: 162
+    classID: 28
+    packedSize: 4204
+    offset: 20970920
+    sourceAssetGUID: 85a45a6d8b2ffb84987d2b028ecfb220
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_58.png
+  - fileID: 163
+    classID: 28
+    packedSize: 4204
+    offset: 20975128
+    sourceAssetGUID: 87a5e40cc271ea648b583616f6ebe7fe
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_32.png
+  - fileID: 164
+    classID: 28
+    packedSize: 2796368
+    offset: 20979336
+    sourceAssetGUID: 884065e0c16bb9842a864c91184b4c79
+    buildTimeAssetPath: Assets/Textures/PaintedPlaster017_2K/PaintedPlaster017_2K_NormalDX.jpg
+  - fileID: 165
+    classID: 28
+    packedSize: 87512
+    offset: 23775704
+    sourceAssetGUID: 89ede59217e3847c39c444f223f4084e
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/cheek_00.tga
+  - fileID: 166
+    classID: 28
+    packedSize: 108
+    offset: 23863216
+    sourceAssetGUID: 8acfed0143142934d8596a084b472bff
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-BlackItalic.ttf
+  - fileID: 167
+    classID: 28
+    packedSize: 248880
+    offset: 23863328
+    sourceAssetGUID: 8e8925135659af84d8ed0d7bd12034b4
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/SSAOOff.png
+  - fileID: 168
+    classID: 28
+    packedSize: 4204
+    offset: 24112208
+    sourceAssetGUID: 8ecbbcae4cc747a4abbc4adce795d25e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_46.png
+  - fileID: 169
+    classID: 28
+    packedSize: 4204
+    offset: 24116416
+    sourceAssetGUID: 936dea238abb0864ab3985a995e16a29
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_54.png
+  - fileID: 170
+    classID: 28
+    packedSize: 4204
+    offset: 24120624
+    sourceAssetGUID: 9660a4ca1ca8425408ac25c641932977
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png
+  - fileID: 171
+    classID: 28
+    packedSize: 4204
+    offset: 24124832
+    sourceAssetGUID: 980acadb960f8424c94307ec0e585b4e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_12.png
+  - fileID: 172
+    classID: 28
+    packedSize: 108
+    offset: 24129040
+    sourceAssetGUID: 987142d53e4852647aab4704d620c799
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-ExtraLight.ttf
+  - fileID: 173
+    classID: 28
+    packedSize: 779724
+    offset: 24129152
+    sourceAssetGUID: 988bbb9628380bf498eec892765d76af
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Grass001/Grass001_Roughness.jpg
+  - fileID: 174
+    classID: 28
+    packedSize: 1036904
+    offset: 24908880
+    sourceAssetGUID: 98effde6de9c4234b874324eba382b9d
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/TreesOn.png
+  - fileID: 175
+    classID: 28
+    packedSize: 295440
+    offset: 25945784
+    sourceAssetGUID: 995cc5951e0099b459143e4efdccf4e0
+    buildTimeAssetPath: Assets/Textures/PaintedPlaster017_2K/PaintedPlaster017_2K_Color.jpg
+  - fileID: 176
+    classID: 28
+    packedSize: 65644
+    offset: 26241224
+    sourceAssetGUID: 999434725cbc2be4eb54043b36efd4a8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_6.png
+  - fileID: 177
+    classID: 28
+    packedSize: 73548
+    offset: 26306872
+    sourceAssetGUID: 9c5457a918faeb1469fa6d5b23d0ad6a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/InfoButton.png
+  - fileID: 178
+    classID: 28
+    packedSize: 477528
+    offset: 26380424
+    sourceAssetGUID: 9d3756eb89a31ad4f99569241d670979
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/tiled_wall/clean/tiled_wall_clean_normal.jpg
+  - fileID: 179
+    classID: 28
+    packedSize: 699172
+    offset: 26857952
+    sourceAssetGUID: 9eea3b9b4b755f64da2c821145616f44
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/hair_01_NRM.tga
+  - fileID: 180
+    classID: 28
+    packedSize: 4204
+    offset: 27557128
+    sourceAssetGUID: a03c400b0e3959f428ee99dfc6cfc263
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_62.png
+  - fileID: 181
+    classID: 28
+    packedSize: 496
+    offset: 27561336
+    sourceAssetGUID: a18067604964b5a4d8fd5552ed0d789e
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/FO_RIM1.tga
+  - fileID: 182
+    classID: 28
+    packedSize: 4204
+    offset: 27561832
+    sourceAssetGUID: a1ae041906217ae44a774d4ca139af50
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_5.png
+  - fileID: 183
+    classID: 28
+    packedSize: 496
+    offset: 27566040
+    sourceAssetGUID: a1d5b2277eb3f6245900378e6fa97575
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/FO_SKIN1.tga
+  - fileID: 184
+    classID: 28
+    packedSize: 1036908
+    offset: 27566536
+    sourceAssetGUID: a29e8cb1d128f07468b4287e835817a1
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/TexturesOff.png
+  - fileID: 185
+    classID: 28
+    packedSize: 4204
+    offset: 28603448
+    sourceAssetGUID: a469f920b21fc7c4fb5b950917ce2fb2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png
+  - fileID: 186
+    classID: 28
+    packedSize: 4204
+    offset: 28607656
+    sourceAssetGUID: aa80dc44aa4fe4c43bb9d51d90cf2958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_29.png
+  - fileID: 187
+    classID: 28
+    packedSize: 108
+    offset: 28611864
+    sourceAssetGUID: ab9c8fb95ed9a254f8ec4b4aec9ca5e9
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Medium.ttf
+  - fileID: 188
+    classID: 28
+    packedSize: 65644
+    offset: 28611976
+    sourceAssetGUID: acde5141d5f4f7a4188394bd52c4dc38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_5.png
+  - fileID: 189
+    classID: 28
+    packedSize: 108
+    offset: 28677624
+    sourceAssetGUID: add091b60b9140e42aabea44b786ee96
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Black.ttf
+  - fileID: 190
+    classID: 28
+    packedSize: 4204
+    offset: 28677736
+    sourceAssetGUID: afe1e502240079342a0a980484b6da8b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_10.png
+  - fileID: 191
+    classID: 28
+    packedSize: 4204
+    offset: 28681944
+    sourceAssetGUID: aff59c63d25d43f4c938f248837c30fb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_48.png
+  - fileID: 192
+    classID: 28
+    packedSize: 4204
+    offset: 28686152
+    sourceAssetGUID: b266511438fae724f9d3ce6bd26583e8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_42.png
+  - fileID: 193
+    classID: 28
+    packedSize: 1036904
+    offset: 28690360
+    sourceAssetGUID: b3ba9081273ea0d4493da2c522be29da
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/TreesOff.png
+  - fileID: 194
+    classID: 28
+    packedSize: 1036908
+    offset: 29727264
+    sourceAssetGUID: b45a99a3ae9a4cb4f8411d78584f02ee
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/LightingOn.png
+  - fileID: 195
+    classID: 28
+    packedSize: 65644
+    offset: 30764176
+    sourceAssetGUID: b52d5033b68309943a2386c270a90f44
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_4.png
+  - fileID: 196
+    classID: 28
+    packedSize: 4204
+    offset: 30829824
+    sourceAssetGUID: b71bb466b71fd13449dd736f63caeb67
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_33.png
+  - fileID: 197
+    classID: 28
+    packedSize: 4204
+    offset: 30834032
+    sourceAssetGUID: b7f000750830ddb4bbc80065b9314ce9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_21.png
+  - fileID: 198
+    classID: 28
+    packedSize: 4204
+    offset: 30838240
+    sourceAssetGUID: b9960364038cbfa4aa49d7b2032d3110
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_45.png
+  - fileID: 199
+    classID: 28
+    packedSize: 890764
+    offset: 30842448
+    sourceAssetGUID: bc1067b960772dc41b14d4220d1070cd
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Grass001/Grass001_Albedo.jpg
+  - fileID: 200
+    classID: 28
+    packedSize: 4204
+    offset: 31733216
+    sourceAssetGUID: bdd06fb88ef36ed4a85dd506352c2d80
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_27.png
+  - fileID: 201
+    classID: 28
+    packedSize: 4204
+    offset: 31737424
+    sourceAssetGUID: bf95b6fdc179b0e4f890c841406193fc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_17.png
+  - fileID: 202
+    classID: 28
+    packedSize: 4204
+    offset: 31741632
+    sourceAssetGUID: bfe953600e8fb1849a804ee08ace7b4c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_23.png
+  - fileID: 203
+    classID: 28
+    packedSize: 65644
+    offset: 31745840
+    sourceAssetGUID: c072b653e98a06e40857d76ca8c7eecd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_3.png
+  - fileID: 204
+    classID: 28
+    packedSize: 2397284
+    offset: 31811488
+    sourceAssetGUID: c3a18d79110318a42ad2c4426452fb85
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/ParticlesOff.png
+  - fileID: 205
+    classID: 28
+    packedSize: 1398236
+    offset: 34208776
+    sourceAssetGUID: c4271b2b1e8bfa949aa9230abaa7709e
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/hair_01_SPEC.tga
+  - fileID: 206
+    classID: 28
+    packedSize: 4204
+    offset: 35607016
+    sourceAssetGUID: c55042318a938344ab23cd7f09dd0076
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_8.png
+  - fileID: 207
+    classID: 28
+    packedSize: 1036904
+    offset: 35611224
+    sourceAssetGUID: c57a660f5c678d642969f2162ed3824a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/FogOff.png
+  - fileID: 208
+    classID: 28
+    packedSize: 76136
+    offset: 36648128
+    sourceAssetGUID: c6d1305fcb87717478343bdd8ecaa629
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/button.png
+  - fileID: 209
+    classID: 28
+    packedSize: 4204
+    offset: 36724264
+    sourceAssetGUID: c94b57b5a32a22d43ade66e09f6a4bd2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_53.png
+  - fileID: 210
+    classID: 28
+    packedSize: 699168
+    offset: 36728472
+    sourceAssetGUID: cbb65ec17f92eb44fb0dde6381b6a415
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/hair_01.tga
+  - fileID: 211
+    classID: 28
+    packedSize: 174880
+    offset: 37427640
+    sourceAssetGUID: cc51a9a8397e3c5498dda60419ad3ec9
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/skin_01.tga
+  - fileID: 212
+    classID: 28
+    packedSize: 892
+    offset: 37602520
+    sourceAssetGUID: cc8f70f2ec571e9478efa98c041cde7b
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/FO_CLOTH1.tga
+  - fileID: 213
+    classID: 28
+    packedSize: 4204
+    offset: 37603416
+    sourceAssetGUID: cd9006dc442cc244e89b3f492384d46a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_41.png
+  - fileID: 214
+    classID: 28
+    packedSize: 1890216
+    offset: 37607624
+    sourceAssetGUID: ce0d7b79006261d468f6f8175a18e401
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/ParticlesOn.png
+  - fileID: 215
+    classID: 28
+    packedSize: 1756752
+    offset: 39497840
+    sourceAssetGUID: d00c05f63819b0b49ab7109b667f4269
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Bark012/Bark012_NormalDX.jpg
+  - fileID: 216
+    classID: 28
+    packedSize: 4204
+    offset: 41254592
+    sourceAssetGUID: d2e8e90fac2e6a341a38e1c3963c218d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_52.png
+  - fileID: 217
+    classID: 28
+    packedSize: 108
+    offset: 41258800
+    sourceAssetGUID: d394228d9ffcbc74c8bd4c3b4a777f27
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-ThinItalic.ttf
+  - fileID: 218
+    classID: 28
+    packedSize: 108
+    offset: 41258912
+    sourceAssetGUID: d46d602511355ef4c8898a6ab201c5c2
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-MediumItalic.ttf
+  - fileID: 219
+    classID: 28
+    packedSize: 4204
+    offset: 41259024
+    sourceAssetGUID: d5a51525b27e3ee4aadbeb39cbcf0750
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_51.png
+  - fileID: 220
+    classID: 28
+    packedSize: 108
+    offset: 41263232
+    sourceAssetGUID: d5d93086152587c48a245f41f7282dbe
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-LightItalic.ttf
+  - fileID: 221
+    classID: 28
+    packedSize: 4204
+    offset: 41263344
+    sourceAssetGUID: d8c290e38ff0425409d0ae6a98c95e41
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_50.png
+  - fileID: 222
+    classID: 28
+    packedSize: 4204
+    offset: 41267552
+    sourceAssetGUID: d96974690c77f50489eb60ec84bd8dac
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_59.png
+  - fileID: 223
+    classID: 28
+    packedSize: 1132
+    offset: 41271760
+    sourceAssetGUID: d99701099481a2f489610e977df6dcbc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/SearchTex.tga
+  - fileID: 224
+    classID: 28
+    packedSize: 1709112
+    offset: 41272896
+    sourceAssetGUID: da2a2712183551247a227161e4bc4c41
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Grass001/Grass001_NormalGL.jpg
+  - fileID: 225
+    classID: 28
+    packedSize: 4204
+    offset: 42982008
+    sourceAssetGUID: df01d03f056c6f445b4b8a0ae054207c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_22.png
+  - fileID: 226
+    classID: 28
+    packedSize: 4204
+    offset: 42986216
+    sourceAssetGUID: e138166e7a7c70f49943be7edda35d35
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_57.png
+  - fileID: 227
+    classID: 28
+    packedSize: 5520
+    offset: 42990424
+    sourceAssetGUID: e1fe5a10f8c5a1c47bc55dbb1398b2cf
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Capsule.png
+  - fileID: 228
+    classID: 28
+    packedSize: 349660
+    offset: 42995944
+    sourceAssetGUID: e315db926a0705845b12da3cc80ea306
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/eyeline_00.tga
+  - fileID: 229
+    classID: 28
+    packedSize: 1036900
+    offset: 43345608
+    sourceAssetGUID: e4cd2f2b0b9daa649885a09600604dc8
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/PPOn.png
+  - fileID: 230
+    classID: 28
+    packedSize: 108
+    offset: 44382512
+    sourceAssetGUID: e991c2566b12e2e4c9a7d9256bcccd8c
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-LightItalic.ttf
+  - fileID: 231
+    classID: 28
+    packedSize: 1036904
+    offset: 44382624
+    sourceAssetGUID: ebf68b9282f4d5840af22cdaaa2b4ab2
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Info/FogOn.png
+  - fileID: 232
+    classID: 28
+    packedSize: 194736
+    offset: 45419528
+    sourceAssetGUID: eee973ce6dc0799459fca2e55e82af4d
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/tiled_wall/clean/tiled_wall_clean_basecolor.jpg
+  - fileID: 233
+    classID: 28
+    packedSize: 748796
+    offset: 45614264
+    sourceAssetGUID: f0cca8231b7c0b248945a84af1d0abd2
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Wood049/Wood049_Roughness.jpg
+  - fileID: 234
+    classID: 28
+    packedSize: 4204
+    offset: 46363064
+    sourceAssetGUID: f4b8ab78b57749d4e96d36f6d8a395d0
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_25.png
+  - fileID: 235
+    classID: 28
+    packedSize: 4204
+    offset: 46367272
+    sourceAssetGUID: f6439b54b28f3884eb67579dec0b6f21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_14.png
+  - fileID: 236
+    classID: 28
+    packedSize: 699168
+    offset: 46371480
+    sourceAssetGUID: f9c6074c5a78e71448f9efd3013cadda
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Texture/body_01.tga
+  - fileID: 237
+    classID: 28
+    packedSize: 108
+    offset: 47070648
+    sourceAssetGUID: fde49f386eb44214c877526cc6973bd8
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/PerfectDOSVGA437.ttf
+  - fileID: 238
+    classID: 28
+    packedSize: 1048692
+    offset: 47070760
+    sourceAssetGUID: 0e94d9de0610cab4bb367eeaf281b17e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Thin SDF.asset
+  - fileID: 239
+    classID: 28
+    packedSize: 262268
+    offset: 48119456
+    sourceAssetGUID: 41ee841e4821a534c8052daac69f9717
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/PerfectDOSVGA437 SDF.asset
+  - fileID: 240
+    classID: 28
+    packedSize: 1048692
+    offset: 48381728
+    sourceAssetGUID: ef34cf59de033b64a95aea3ee983a747
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Black SDF.asset
+  - fileID: 241
+    classID: 28
+    packedSize: 1048688
+    offset: 49430424
+    sourceAssetGUID: 10e65109cca78aa42a23129f497bad36
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/AccessibilityFonts/Times
+      New Roman/TIMES SDF.asset
+  - fileID: 242
+    classID: 28
+    packedSize: 1048696
+    offset: 50479112
+    sourceAssetGUID: 87eae60354e98574198f44608f6cd97a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-BoldItalic
+      SDF.asset
+  - fileID: 243
+    classID: 28
+    packedSize: 1048696
+    offset: 51527808
+    sourceAssetGUID: c152a653b2e902d4d9a351fec3992ec1
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-LightItalic
+      SDF.asset
+  - fileID: 244
+    classID: 43
+    packedSize: 1436
+    offset: 52576504
+    sourceAssetGUID: 6bc4a1d9e35f4484b80d90b88282dbc7
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Light Bar/Light Bar.fbx
+  - fileID: 245
+    classID: 43
+    packedSize: 35520
+    offset: 52577944
+    sourceAssetGUID: 28ffef46f48811b48949af72e7e10bf6
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Cookie/Normal/cookie_beta.fbx
+  - fileID: 246
+    classID: 43
+    packedSize: 1428
+    offset: 52613464
+    sourceAssetGUID: 6bc4a1d9e35f4484b80d90b88282dbc7
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Light Bar/Light Bar.fbx
+  - fileID: 247
+    classID: 43
+    packedSize: 868
+    offset: 52614896
+    sourceAssetGUID: b400a5bca253c984f9b4c00f52bc9efe
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Science_Factory/V2/Science_Factory_Normal_V2_UV.fbx
+  - fileID: 248
+    classID: 43
+    packedSize: 6152
+    offset: 52615768
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 249
+    classID: 43
+    packedSize: 4236
+    offset: 52621920
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 250
+    classID: 43
+    packedSize: 1592
+    offset: 52626160
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 251
+    classID: 43
+    packedSize: 1592
+    offset: 52627752
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 252
+    classID: 43
+    packedSize: 287924
+    offset: 52629344
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 253
+    classID: 43
+    packedSize: 98852
+    offset: 52917272
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 254
+    classID: 43
+    packedSize: 128692
+    offset: 53016128
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 255
+    classID: 43
+    packedSize: 12296
+    offset: 53144824
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 256
+    classID: 43
+    packedSize: 119828
+    offset: 53157120
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 257
+    classID: 43
+    packedSize: 56744
+    offset: 53276952
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 258
+    classID: 43
+    packedSize: 26428
+    offset: 53333696
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 259
+    classID: 43
+    packedSize: 72864
+    offset: 53360128
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 260
+    classID: 43
+    packedSize: 18924
+    offset: 53432992
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 261
+    classID: 43
+    packedSize: 201432
+    offset: 53451920
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 262
+    classID: 43
+    packedSize: 77536
+    offset: 53653352
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 263
+    classID: 43
+    packedSize: 100348
+    offset: 53730888
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 264
+    classID: 43
+    packedSize: 39428
+    offset: 53831240
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 265
+    classID: 43
+    packedSize: 98152
+    offset: 53870672
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 266
+    classID: 43
+    packedSize: 29164
+    offset: 53968824
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 267
+    classID: 43
+    packedSize: 21716
+    offset: 53997992
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 268
+    classID: 43
+    packedSize: 15148
+    offset: 54019712
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 269
+    classID: 43
+    packedSize: 2444
+    offset: 54034864
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 270
+    classID: 43
+    packedSize: 139376
+    offset: 54037312
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 271
+    classID: 43
+    packedSize: 7796
+    offset: 54176688
+    sourceAssetGUID: ae614abec269c4f44b0c1de20a4a9112
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Trees/02/Tree02_Optimized.fbx
+  - fileID: 272
+    classID: 43
+    packedSize: 1260
+    offset: 54184488
+    sourceAssetGUID: b400a5bca253c984f9b4c00f52bc9efe
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Science_Factory/V2/Science_Factory_Normal_V2_UV.fbx
+  - fileID: 273
+    classID: 43
+    packedSize: 11204
+    offset: 54185752
+    sourceAssetGUID: ae614abec269c4f44b0c1de20a4a9112
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Trees/02/Tree02_Optimized.fbx
+  - fileID: 274
+    classID: 43
+    packedSize: 21760
+    offset: 54196960
+    sourceAssetGUID: 4a8735d23a8dddb42b289532fbeaeae3
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Trees/01/Tree01.fbx
+  - fileID: 275
+    classID: 43
+    packedSize: 3248
+    offset: 54218720
+    sourceAssetGUID: a3fcbebada04c564fbe3cdc0688af674
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/drill/drill.fbx
+  - fileID: 276
+    classID: 43
+    packedSize: 1436
+    offset: 54221968
+    sourceAssetGUID: 6bc4a1d9e35f4484b80d90b88282dbc7
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Light Bar/Light Bar.fbx
+  - fileID: 277
+    classID: 43
+    packedSize: 1432
+    offset: 54223408
+    sourceAssetGUID: 6bc4a1d9e35f4484b80d90b88282dbc7
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Light Bar/Light Bar.fbx
+  - fileID: 278
+    classID: 43
+    packedSize: 1432
+    offset: 54224840
+    sourceAssetGUID: b400a5bca253c984f9b4c00f52bc9efe
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Models/Science_Factory/V2/Science_Factory_Normal_V2_UV.fbx
+  - fileID: 279
+    classID: 48
+    packedSize: 1266532
+    offset: 54226272
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 280
+    classID: 48
+    packedSize: 36236
+    offset: 55492808
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 281
+    classID: 48
+    packedSize: 166808
+    offset: 55529048
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 282
+    classID: 48
+    packedSize: 55804
+    offset: 55695856
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 283
+    classID: 48
+    packedSize: 6788
+    offset: 55751664
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 284
+    classID: 48
+    packedSize: 23588
+    offset: 55758456
+    sourceAssetGUID: 0298b868476735f41857e9ba8f0d4cd1
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Shader/Unitychan_chara_akarami_blend.shader
+  - fileID: 285
+    classID: 48
+    packedSize: 6052
+    offset: 55782048
+    sourceAssetGUID: 02d2da9bc88d25c4d878c1ed4e0b3854
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+  - fileID: 286
+    classID: 48
+    packedSize: 278984
+    offset: 55788104
+    sourceAssetGUID: 0b7113dea2069fc4e8943843eff19f70
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-StandardLite.shader
+  - fileID: 287
+    classID: 48
+    packedSize: 11512
+    offset: 56067088
+    sourceAssetGUID: 0d8afcb51cc9f0349a6d190da929b838
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+  - fileID: 288
+    classID: 48
+    packedSize: 70628
+    offset: 56078600
+    sourceAssetGUID: 0ef78d24e85a44f4da9d5b5eaa00e50b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+  - fileID: 289
+    classID: 48
+    packedSize: 12784
+    offset: 56149232
+    sourceAssetGUID: 128e987d567d4e2c824d754223b3f3b0
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  - fileID: 290
+    classID: 48
+    packedSize: 31504
+    offset: 56162016
+    sourceAssetGUID: 235ca6f7bbc0ead4990f386a7ec24292
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Shader/Unitychan_chara_hair_ds.shader
+  - fileID: 291
+    classID: 48
+    packedSize: 22384
+    offset: 56193520
+    sourceAssetGUID: 2c459b89a7c8b1a4fbefe0d81341651c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+  - fileID: 292
+    classID: 48
+    packedSize: 59580
+    offset: 56215904
+    sourceAssetGUID: 2dcd9e0568e0a6f45b92c60ba2eb16a0
+    buildTimeAssetPath: Assets/VRCSDK/Sample Assets/Shaders/Mobile/VRChat-Mobile-Diffuse.shader
+  - fileID: 293
+    classID: 48
+    packedSize: 4280
+    offset: 56275488
+    sourceAssetGUID: 3020ac7ece79a7f4eb789a236f8bd6c5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+  - fileID: 294
+    classID: 48
+    packedSize: 7216
+    offset: 56279768
+    sourceAssetGUID: 34a819c9e33402547a81619693adc8d5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+  - fileID: 295
+    classID: 48
+    packedSize: 4003880
+    offset: 56286984
+    sourceAssetGUID: 382151503e2a43a4ebb7366d1632731d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+  - fileID: 296
+    classID: 48
+    packedSize: 10344
+    offset: 60290864
+    sourceAssetGUID: 4117fce9491711c4094d33a048e36e73
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+  - fileID: 297
+    classID: 48
+    packedSize: 6084
+    offset: 60301208
+    sourceAssetGUID: 4bf4cff0d0bac3d43894e2e8839feb40
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+  - fileID: 298
+    classID: 48
+    packedSize: 11120
+    offset: 60307296
+    sourceAssetGUID: 51bcf79c50dc92e47ba87821b61100c3
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+  - fileID: 299
+    classID: 48
+    packedSize: 3848
+    offset: 60318416
+    sourceAssetGUID: 5ab0816423f0dfe45841cab3b05ec9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+  - fileID: 300
+    classID: 48
+    packedSize: 16532
+    offset: 60322264
+    sourceAssetGUID: 67f9497810829eb4791ec19e95781e51
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+  - fileID: 301
+    classID: 48
+    packedSize: 25212
+    offset: 60338800
+    sourceAssetGUID: 68e6db2ebdc24f95958faec2be5558d6
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  - fileID: 302
+    classID: 48
+    packedSize: 21728
+    offset: 60364016
+    sourceAssetGUID: 7ad194cbe7d006f4bace915156972026
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+  - fileID: 303
+    classID: 48
+    packedSize: 23968
+    offset: 60385744
+    sourceAssetGUID: 81af42a93ade3dd46a9b583d4eec76d6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+  - fileID: 304
+    classID: 48
+    packedSize: 23532
+    offset: 60409712
+    sourceAssetGUID: 9627902a73805264c818754ecb22c8f9
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Shader/Unitychan_chara_eyelash_blend.shader
+  - fileID: 305
+    classID: 48
+    packedSize: 31508
+    offset: 60433248
+    sourceAssetGUID: 96d05de60c5f7474491f9f94568cf623
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Shader/Unitychan_chara_fuku_ds.shader
+  - fileID: 306
+    classID: 48
+    packedSize: 4292
+    offset: 60464760
+    sourceAssetGUID: a71093f2a4fe26a40805c22739e10e4a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+  - fileID: 307
+    classID: 48
+    packedSize: 23508
+    offset: 60469056
+    sourceAssetGUID: abaf2020b803b6847b5c081ed22c05c5
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Shader/Unitychan_chara_eye.shader
+  - fileID: 308
+    classID: 48
+    packedSize: 15168
+    offset: 60492568
+    sourceAssetGUID: b34a29e523cb9d545881e193a079f2df
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+  - fileID: 309
+    classID: 48
+    packedSize: 28124
+    offset: 60507736
+    sourceAssetGUID: b35a2abbdd5b15d4ca40103088758eac
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Shader/Unitychan_chara_hada.shader
+  - fileID: 310
+    classID: 48
+    packedSize: 26004
+    offset: 60535864
+    sourceAssetGUID: b958ad1c92bd3d64c9e61318b8681dab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+  - fileID: 311
+    classID: 48
+    packedSize: 23584
+    offset: 60561872
+    sourceAssetGUID: bf944057124b80b4e84496139e3b072c
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/UnityChanShader/Shader/Unitychan_chara_eye_blend.shader
+  - fileID: 312
+    classID: 48
+    packedSize: 32708
+    offset: 60585456
+    sourceAssetGUID: c1e1d3119c6fd4646aea0b4b74cacc1a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+  - fileID: 313
+    classID: 48
+    packedSize: 6740
+    offset: 60618168
+    sourceAssetGUID: cdbdb71de5f9c454b980f6d0e87f0afb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+  - fileID: 314
+    classID: 48
+    packedSize: 42900
+    offset: 60624912
+    sourceAssetGUID: d7640629310e79646af0f46eb55ae466
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+  - fileID: 315
+    classID: 48
+    packedSize: 6112
+    offset: 60667816
+    sourceAssetGUID: e8ce9961912f3214586fe8709b9012c1
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+  - fileID: 316
+    classID: 48
+    packedSize: 105396
+    offset: 60673928
+    sourceAssetGUID: f75014305794b3948a3c6d5ccd550e05
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+  - fileID: 317
+    classID: 48
+    packedSize: 5128
+    offset: 60779328
+    sourceAssetGUID: f7ea35cfb33fcad4ab8f2429ec103bef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+  - fileID: 318
+    classID: 48
+    packedSize: 19200
+    offset: 60784456
+    sourceAssetGUID: f997a3dc9254c44459323cced085150c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+  - fileID: 319
+    classID: 48
+    packedSize: 19276
+    offset: 60803656
+    sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - fileID: 320
+    classID: 72
+    packedSize: 1816
+    offset: 60822936
+    sourceAssetGUID: 18183ebfeeab97749b43e38b928604a7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute
+  - fileID: 321
+    classID: 72
+    packedSize: 1456
+    offset: 60824752
+    sourceAssetGUID: 31e9175024adfd44aba2530ff9b77494
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
+  - fileID: 322
+    classID: 72
+    packedSize: 95740
+    offset: 60826208
+    sourceAssetGUID: 34845e0ca016b7448842e965db5890a5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
+  - fileID: 323
+    classID: 72
+    packedSize: 39828
+    offset: 60921952
+    sourceAssetGUID: 34a460e8a2e66c243a9c12024e5a798d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
+  - fileID: 324
+    classID: 72
+    packedSize: 21116
+    offset: 60961784
+    sourceAssetGUID: 42496b74c071f5749950ca1abe33e945
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
+  - fileID: 325
+    classID: 72
+    packedSize: 5048
+    offset: 60982904
+    sourceAssetGUID: 4c63bc487e6c29a4a99f85a6c47b292b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
+  - fileID: 326
+    classID: 72
+    packedSize: 92224
+    offset: 60987952
+    sourceAssetGUID: 600d6212b59bb40409d19d750b5fd1e9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
+  - fileID: 327
+    classID: 72
+    packedSize: 6436
+    offset: 61080176
+    sourceAssetGUID: 6dba4103d23a7904fbc49099355aff3e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+  - fileID: 328
+    classID: 72
+    packedSize: 1640
+    offset: 61086616
+    sourceAssetGUID: 8c2fcbdf9bc58664f89917f7b9d79501
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
+  - fileID: 329
+    classID: 72
+    packedSize: 1824
+    offset: 61088256
+    sourceAssetGUID: 92c63830cd50c0b4fbb8233613839958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute
+  - fileID: 330
+    classID: 72
+    packedSize: 1944
+    offset: 61090080
+    sourceAssetGUID: e1efca7c36fd01840aae0dd10378de5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute
+  - fileID: 331
+    classID: 72
+    packedSize: 1960
+    offset: 61092024
+    sourceAssetGUID: e4d3e4779e48a374f91d48d4c0aedb7b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
+  - fileID: 332
+    classID: 83
+    packedSize: 124
+    offset: 61093984
+    sourceAssetGUID: 9f741f8f75d460a44bf205db8fc4792b
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Audio/UI_Click_01.mp3
+  - fileID: 333
+    classID: 84
+    packedSize: 92
+    offset: 61094112
+    sourceAssetGUID: c7280ef1b494e3545a1c5dd399ada5a7
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/EasterEggVideo.renderTexture
+  - fileID: 334
+    classID: 90
+    packedSize: 65252
+    offset: 61094208
+    sourceAssetGUID: 8f0565f23a2b58541a475bd3c1393052
+    buildTimeAssetPath: Assets/unity-chan!/Unity-chan! Model/Art/Models/unitychan.fbx
+  - fileID: 335
+    classID: 115
+    packedSize: 92
+    offset: 141872
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 336
+    classID: 115
+    packedSize: 96
+    offset: 141968
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 337
+    classID: 115
+    packedSize: 116
+    offset: 142064
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 338
+    classID: 115
+    packedSize: 108
+    offset: 142184
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Assets/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 339
+    classID: 115
+    packedSize: 96
+    offset: 142296
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 340
+    classID: 115
+    packedSize: 88
+    offset: 142392
+    sourceAssetGUID: 1344c3c82d62a2a41a3576d8abb8e3ea
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/RawImage.cs
+  - fileID: 341
+    classID: 115
+    packedSize: 96
+    offset: 142480
+    sourceAssetGUID: 1aa08ab6e0800fa44ae55d278d1423e3
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/ScrollRect.cs
+  - fileID: 342
+    classID: 115
+    packedSize: 96
+    offset: 142576
+    sourceAssetGUID: 2a4db7a114972834c8e4117be1d82ba3
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Scrollbar.cs
+  - fileID: 343
+    classID: 115
+    packedSize: 100
+    offset: 142672
+    sourceAssetGUID: 2da0c512f12947e489f739169773d7ca
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_InputField.cs
+  - fileID: 344
+    classID: 115
+    packedSize: 104
+    offset: 142776
+    sourceAssetGUID: 306cc8c2b49d7114eaa3623786fc2126
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/LayoutElement.cs
+  - fileID: 345
+    classID: 115
+    packedSize: 144
+    offset: 142880
+    sourceAssetGUID: 30f4b897495c7ad40b2d47143e02aaba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessResources.cs
+  - fileID: 346
+    classID: 115
+    packedSize: 80
+    offset: 143024
+    sourceAssetGUID: 31a19414c41e5ae4aae2af33fee712f6
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs
+  - fileID: 347
+    classID: 115
+    packedSize: 96
+    offset: 143104
+    sourceAssetGUID: 3312d7739989d2b4e91e6319e9a96d76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/RectMask2D.cs
+  - fileID: 348
+    classID: 115
+    packedSize: 88
+    offset: 143200
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Assets/Udon/UdonBehaviour.cs
+  - fileID: 349
+    classID: 115
+    packedSize: 120
+    offset: 143288
+    sourceAssetGUID: 48a79b01ea5641d4aa6daa2e23605641
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Bloom.cs
+  - fileID: 350
+    classID: 115
+    packedSize: 88
+    offset: 143408
+    sourceAssetGUID: 4e29b1a8efbd4b44bb3f3716e73f07ff
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+  - fileID: 351
+    classID: 115
+    packedSize: 128
+    offset: 143496
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 352
+    classID: 115
+    packedSize: 112
+    offset: 143624
+    sourceAssetGUID: 59f8146938fff824cb5fd77236b75775
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs
+  - fileID: 353
+    classID: 115
+    packedSize: 80
+    offset: 143736
+    sourceAssetGUID: 5f7201a12d95ffc409449d95f23cf332
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Text.cs
+  - fileID: 354
+    classID: 115
+    packedSize: 88
+    offset: 143816
+    sourceAssetGUID: 67db9e8f0e2ae9c40bc1e2b64352a6b4
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Slider.cs
+  - fileID: 355
+    classID: 115
+    packedSize: 100
+    offset: 143904
+    sourceAssetGUID: 71c1514a6bd24e1e882cebbe1904ce04
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - fileID: 356
+    classID: 115
+    packedSize: 104
+    offset: 144008
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 357
+    classID: 115
+    packedSize: 92
+    offset: 144112
+    sourceAssetGUID: 7b743370ac3e4ec2a1668f5455a8ef8a
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_Dropdown.cs
+  - fileID: 358
+    classID: 115
+    packedSize: 112
+    offset: 144208
+    sourceAssetGUID: 8233d90336aea43098adf6dbabd606a2
+    buildTimeAssetPath: Packages/com.unity.probuilder/Runtime/Core/ProBuilderMesh.cs
+  - fileID: 359
+    classID: 115
+    packedSize: 144
+    offset: 144320
+    sourceAssetGUID: 8b9a305e18de0c04dbd257a21cd47087
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessVolume.cs
+  - fileID: 360
+    classID: 115
+    packedSize: 144
+    offset: 144464
+    sourceAssetGUID: 8e6292b2c06870d4495f009f912b9600
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessProfile.cs
+  - fileID: 361
+    classID: 115
+    packedSize: 88
+    offset: 144608
+    sourceAssetGUID: 9085046f02f69544eb97fd06b6048fe2
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Toggle.cs
+  - fileID: 362
+    classID: 115
+    packedSize: 136
+    offset: 144696
+    sourceAssetGUID: 948f4100a11a5c24981795d21301da5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessLayer.cs
+  - fileID: 363
+    classID: 115
+    packedSize: 128
+    offset: 144832
+    sourceAssetGUID: adb84e30e02715445aeb9959894e3b4d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ColorGrading.cs
+  - fileID: 364
+    classID: 115
+    packedSize: 128
+    offset: 144960
+    sourceAssetGUID: b3f6f3f7c722b4544b97e3c75840aa33
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/AutoExposure.cs
+  - fileID: 365
+    classID: 115
+    packedSize: 128
+    offset: 145088
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Assets/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 366
+    classID: 115
+    packedSize: 104
+    offset: 145216
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 367
+    classID: 115
+    packedSize: 100
+    offset: 145320
+    sourceAssetGUID: f4688fdb7df04437aeb418b961361dc5
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+  - fileID: 368
+    classID: 115
+    packedSize: 88
+    offset: 145424
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 369
+    classID: 128
+    packedSize: 167530
+    offset: 61159464
+    sourceAssetGUID: 0a4e92d564bcce04f8f15f37c7934a36
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Bold.ttf
+  - fileID: 370
+    classID: 128
+    packedSize: 168646
+    offset: 61327000
+    sourceAssetGUID: 1790396a86663e240ad2530ddc7e2196
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Thin.ttf
+  - fileID: 371
+    classID: 128
+    packedSize: 246834
+    offset: 61495648
+    sourceAssetGUID: 1b286fbd94715a142921f0fc388039c6
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Light.ttf
+  - fileID: 372
+    classID: 128
+    packedSize: 248310
+    offset: 61742488
+    sourceAssetGUID: 2210824cb6753c04a8c1a36dbc374ba3
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Regular.ttf
+  - fileID: 373
+    classID: 128
+    packedSize: 171746
+    offset: 61990800
+    sourceAssetGUID: 2c52036b1c5b61c4f9656fff045675ba
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-BoldItalic.ttf
+  - fileID: 374
+    classID: 128
+    packedSize: 247830
+    offset: 62162552
+    sourceAssetGUID: 3be424fa0721e4d4ca0bcf291e54cdca
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Black.ttf
+  - fileID: 375
+    classID: 128
+    packedSize: 167254
+    offset: 62410384
+    sourceAssetGUID: 3ef9410cdcd0c3145819638732f065b0
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Light.ttf
+  - fileID: 376
+    classID: 128
+    packedSize: 247658
+    offset: 62577640
+    sourceAssetGUID: 4c1677d74b2b96c4784f21b60629a25f
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-Bold.ttf
+  - fileID: 377
+    classID: 128
+    packedSize: 108566
+    offset: 62825304
+    sourceAssetGUID: 5093126f885ca4b4295693dac33d6522
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-BlackItalic.ttf
+  - fileID: 378
+    classID: 128
+    packedSize: 109798
+    offset: 62933872
+    sourceAssetGUID: 5bb4f19e8c43da245813fae890e87a29
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-ExtraLightItalic.ttf
+  - fileID: 379
+    classID: 128
+    packedSize: 109422
+    offset: 63043672
+    sourceAssetGUID: 608295f367472f543a49a09ac2dc5840
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-SemiBoldItalic.ttf
+  - fileID: 380
+    classID: 128
+    packedSize: 109314
+    offset: 63153096
+    sourceAssetGUID: 61cd7f1418b44424aa4bc152bc33e30d
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-BoldItalic.ttf
+  - fileID: 381
+    classID: 128
+    packedSize: 170678
+    offset: 63262416
+    sourceAssetGUID: 77a57e270f231934aad538342b9b6934
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Italic.ttf
+  - fileID: 382
+    classID: 128
+    packedSize: 168446
+    offset: 63433096
+    sourceAssetGUID: 78a06d2ec5d68f048827965a2b06ad62
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Regular.ttf
+  - fileID: 383
+    classID: 128
+    packedSize: 174322
+    offset: 63601544
+    sourceAssetGUID: 8acfed0143142934d8596a084b472bff
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-BlackItalic.ttf
+  - fileID: 384
+    classID: 128
+    packedSize: 247402
+    offset: 63775872
+    sourceAssetGUID: 987142d53e4852647aab4704d620c799
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-ExtraLight.ttf
+  - fileID: 385
+    classID: 128
+    packedSize: 168866
+    offset: 64023280
+    sourceAssetGUID: ab9c8fb95ed9a254f8ec4b4aec9ca5e9
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Medium.ttf
+  - fileID: 386
+    classID: 128
+    packedSize: 168302
+    offset: 64192152
+    sourceAssetGUID: add091b60b9140e42aabea44b786ee96
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-Black.ttf
+  - fileID: 387
+    classID: 128
+    packedSize: 173026
+    offset: 64360456
+    sourceAssetGUID: d394228d9ffcbc74c8bd4c3b4a777f27
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-ThinItalic.ttf
+  - fileID: 388
+    classID: 128
+    packedSize: 173558
+    offset: 64533488
+    sourceAssetGUID: d46d602511355ef4c8898a6ab201c5c2
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-MediumItalic.ttf
+  - fileID: 389
+    classID: 128
+    packedSize: 173326
+    offset: 64707048
+    sourceAssetGUID: d5d93086152587c48a245f41f7282dbe
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/Roboto-LightItalic.ttf
+  - fileID: 390
+    classID: 128
+    packedSize: 110382
+    offset: 64880376
+    sourceAssetGUID: e991c2566b12e2e4c9a7d9256bcccd8c
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Source Sans Pro/SourceSansPro-LightItalic.ttf
+  - fileID: 391
+    classID: 128
+    packedSize: 81342
+    offset: 64990760
+    sourceAssetGUID: fde49f386eb44214c877526cc6973bd8
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/PerfectDOSVGA437.ttf
+  - fileID: 392
+    classID: 213
+    packedSize: 796
+    offset: 65072104
+    sourceAssetGUID: 7274dd14d684c8442ab13944c28b36e1
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/Circle.png
+  - fileID: 393
+    classID: 213
+    packedSize: 624
+    offset: 65072904
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 394
+    classID: 213
+    packedSize: 568
+    offset: 65073528
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 395
+    classID: 213
+    packedSize: 572
+    offset: 65074096
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 396
+    classID: 213
+    packedSize: 580
+    offset: 65074672
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 397
+    classID: 213
+    packedSize: 544
+    offset: 65075256
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 398
+    classID: 213
+    packedSize: 516
+    offset: 65075800
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 399
+    classID: 213
+    packedSize: 728
+    offset: 65076320
+    sourceAssetGUID: 9c5457a918faeb1469fa6d5b23d0ad6a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/InfoButton.png
+  - fileID: 400
+    classID: 213
+    packedSize: 34824
+    offset: 65077048
+    sourceAssetGUID: c6d1305fcb87717478343bdd8ecaa629
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Textures/button.png
+  - fileID: 401
+    classID: 258
+    packedSize: 6604
+    offset: 65111872
+    sourceAssetGUID: 79a346dc33e6da040a0c69552a703643
+    buildTimeAssetPath: Assets/Scenes/SampleScene/LightingData.asset
+  - fileID: 402
+    classID: 363
+    packedSize: 8336
+    offset: 65118480
+    sourceAssetGUID: 6619f1951e622d245aeba2c4bd85e14e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Scenes/Game/OcclusionCullingData.asset
+  - fileID: 403
+    classID: 114
+    packedSize: 900
+    offset: 65126816
+    sourceAssetGUID: 64b713400d8aa5547af0401038f615cb
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/DejaVuSans/checkmark.asset
+  - fileID: 404
+    classID: 114
+    packedSize: 5544
+    offset: 65127720
+    sourceAssetGUID: 41ee841e4821a534c8052daac69f9717
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/PerfectDOSVGA437 SDF.asset
+  - fileID: 405
+    classID: 114
+    packedSize: 5268
+    offset: 65133264
+    sourceAssetGUID: ef34cf59de033b64a95aea3ee983a747
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Black SDF.asset
+  - fileID: 406
+    classID: 114
+    packedSize: 4256
+    offset: 65138536
+    sourceAssetGUID: 568379fb23fd19241882bcaf9bdfb2df
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-BlackItalic
+      SDF.asset
+  - fileID: 407
+    classID: 114
+    packedSize: 4256
+    offset: 65142792
+    sourceAssetGUID: 87eae60354e98574198f44608f6cd97a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-BoldItalic
+      SDF.asset
+  - fileID: 408
+    classID: 114
+    packedSize: 4404
+    offset: 65147048
+    sourceAssetGUID: bbcca7ff2bdaaf447ab0c703fb9cf53f
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Light SDF.asset
+  - fileID: 409
+    classID: 114
+    packedSize: 4160
+    offset: 65151456
+    sourceAssetGUID: c152a653b2e902d4d9a351fec3992ec1
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-LightItalic
+      SDF.asset
+  - fileID: 410
+    classID: 114
+    packedSize: 5736
+    offset: 65155616
+    sourceAssetGUID: e9c0f205cb26ab34b9081768a1a59b7e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Medium
+      SDF.asset
+  - fileID: 411
+    classID: 114
+    packedSize: 5956
+    offset: 65161352
+    sourceAssetGUID: 1cd45e95e247f674f8d4058187cd4b54
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-MediumItalic
+      SDF.asset
+  - fileID: 412
+    classID: 114
+    packedSize: 6496
+    offset: 65167312
+    sourceAssetGUID: 0e94d9de0610cab4bb367eeaf281b17e
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-Thin SDF.asset
+  - fileID: 413
+    classID: 114
+    packedSize: 4464
+    offset: 65173808
+    sourceAssetGUID: 64a63fe5b31d3df49b20a98134f61d81
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/Roboto/TMP/Roboto-ThinItalic
+      SDF.asset
+  - fileID: 414
+    classID: 114
+    packedSize: 14584
+    offset: 65178272
+    sourceAssetGUID: cde9d39732ea3524898d7986bfd5d09a
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/gameFont.asset
+  - fileID: 415
+    classID: 114
+    packedSize: 12232
+    offset: 65192856
+    sourceAssetGUID: 129072d30a2579e409ff44d1d618f470
+    buildTimeAssetPath: Assets/Cookieclicker2.mp4/Fonts/gameFontBold.asset
+  - fileID: 416
+    classID: 114
+    packedSize: 88
+    offset: 65205088
+    sourceAssetGUID: aaf2aa272a0c90a41b6aa67bd4618986
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 417
+    classID: 114
+    packedSize: 57804
+    offset: 65205176
+    sourceAssetGUID: e4df58353dc35464b90c42464a0f834c
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/316c14569b7b262459684016be0f6cab.asset
+  - fileID: 418
+    classID: 114
+    packedSize: 17068
+    offset: 65262984
+    sourceAssetGUID: 352e49e64712572439d86f366230ff41
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 419
+    classID: 114
+    packedSize: 1380
+    offset: 65280056
+    sourceAssetGUID: d82512f9c8e5d4a4d938b575d47f88d4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+  - fileID: 420
+    classID: 114
+    packedSize: 156
+    offset: 65281440
+    sourceAssetGUID: aaf2aa272a0c90a41b6aa67bd4618986
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 421
+    classID: 114
+    packedSize: 116
+    offset: 65281600
+    sourceAssetGUID: aaf2aa272a0c90a41b6aa67bd4618986
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 422
+    classID: 114
+    packedSize: 4984
+    offset: 65281720
+    sourceAssetGUID: aaf2aa272a0c90a41b6aa67bd4618986
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
