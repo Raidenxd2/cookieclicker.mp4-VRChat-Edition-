@@ -14,6 +14,8 @@ public class Game : UdonSharpBehaviour
     public Text Shop_AutoClickerBTN;
     public Text Shop_DoubleCookieBTN;
     public GameObject NECDialog;
+    public InputField inputField_Save;
+    public InputField inputField_Load;
 
     //Variables
     public double Cookies;
@@ -30,6 +32,9 @@ public class Game : UdonSharpBehaviour
     //Graphics
     public bool PostProcessing = true;
     public GameObject pp;
+
+    //Saving
+    public string saveData;
 
     //Other
     UdonBehaviour behaviour;
@@ -118,6 +123,27 @@ public class Game : UdonSharpBehaviour
         {
             pp.SetActive(false);
         }
+    }
+
+    public void SaveData()
+    {
+        saveData = Cookies + "," + AutoClickers + "," + DoubleCookies + "," + AutoClickerPrice + "," + DoubleCookiePrice + "," + CPS + "," + CPC;
+        inputField_Save.text = saveData;
+    }
+
+    public void LoadData()
+    {
+        saveData = inputField_Load.text;
+        var saveDataSplit = saveData.Split(new char[] {','});
+        Debug.Log(saveData);
+        
+        Cookies = double.Parse(saveDataSplit[0]);
+        AutoClickers = double.Parse(saveDataSplit[1]);
+        DoubleCookies = double.Parse(saveDataSplit[2]);
+        AutoClickerPrice = double.Parse(saveDataSplit[3]);
+        DoubleCookiePrice = double.Parse(saveDataSplit[4]);
+        CPS = double.Parse(saveDataSplit[5]);
+        CPC = double.Parse(saveDataSplit[6]);
     }
 
 }

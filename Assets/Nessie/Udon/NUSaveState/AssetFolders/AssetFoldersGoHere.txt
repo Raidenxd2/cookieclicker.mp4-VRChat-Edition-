@@ -1,0 +1,1 @@
+Folders inside of this one will show up in the "Asset Folder" foldout for easier access.

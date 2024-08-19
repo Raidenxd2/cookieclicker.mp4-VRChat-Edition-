@@ -13,9 +13,8 @@ Material:
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: TransparentCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -115,7 +114,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 0.63560516, b: 0, a: 1}
     - _Color: {r: 1, g: 0.63560516, b: 0, a: 1}
-    - _EmissionColor: {r: 8, g: 3.434555, b: 0, a: 1}
+    - _EmissionColor: {r: 8, g: 7.717647, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
 --- !u!114 &7415207280787416775
 MonoBehaviour:
